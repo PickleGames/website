@@ -1,0 +1,60 @@
+d:assets:0:application/unknown
+i:badlogic.jpg:68465:image/jpeg
+i:bubble.png:21059:image/png
+d:images:0:application/unknown
+i:images/background.png:162310:image/png
+d:images/backup:0:application/unknown
+i:images/chair.png:15998:image/png
+i:images/Computer.png:5260:image/png
+i:images/daynight.png:18445:image/png
+i:images/deadscreen.png:60794:image/png
+i:images/desk.png:1985:image/png
+i:images/desktop.png:70712:image/png
+i:images/end1.png:456290:image/png
+i:images/end2.png:237009:image/png
+i:images/end3.png:237023:image/png
+i:images/fish1.png:165716:image/png
+i:images/fish1_dead.png:56175:image/png
+i:images/fish2.png:73506:image/png
+i:images/fish2_dead.png:28447:image/png
+i:images/fishtank1.png:119952:image/png
+i:images/fishtank2.png:421163:image/png
+i:images/fishtank3.png:322815:image/png
+i:images/fish_bone.png:18093:image/png
+i:images/Food.png:667:image/png
+i:images/food_can.png:26211:image/png
+i:images/inhealth.png:17820:image/png
+i:images/intro1.png:168066:image/png
+i:images/menu.png:137640:image/png
+i:images/outhealth.png:17838:image/png
+i:images/owner.png:7414:image/png
+i:images/red.png:17758:image/png
+i:images/seaweed.png:20266:image/png
+i:images/testcircle.png:142387:image/png
+d:musics:0:application/unknown
+a:musics/game music 2.mp3:216364:application/unknown
+a:musics/game music 3.5.mp3:222633:application/unknown
+a:musics/game music 3.mp3:237784:application/unknown
+a:musics/level1music.mp3:222633:application/unknown
+a:musics/level2music.mp3:288984:application/unknown
+a:musics/level3music.mp3:576853:application/unknown
+a:musics/mainmenu.mp3:385115:application/unknown
+a:musics/thisfitnowhere.mp3:186584:application/unknown
+a:musics/work in progress(1).mp3:385115:application/unknown
+a:musics/work in progress(2).mp3:148446:application/unknown
+a:musics/work in progress(3).mp3:629099:application/unknown
+a:musics/youdead.mp3:531401:application/unknown
+d:particle:0:application/unknown
+b:particle/bubble.par:1997:application/unknown
+d:sounds:0:application/unknown
+a:sounds/ded.mp3:111874:application/unknown
+a:sounds/ping.mp3:37686:application/unknown
+a:sounds/pop.mp3:37686:application/unknown
+t:com/badlogic/gdx/graphics/g3d/particles/particles.fragment.glsl:770:application/unknown
+t:com/badlogic/gdx/graphics/g3d/particles/particles.vertex.glsl:2886:application/unknown
+t:com/badlogic/gdx/graphics/g3d/shaders/default.fragment.glsl:5163:application/unknown
+t:com/badlogic/gdx/graphics/g3d/shaders/default.vertex.glsl:8824:application/unknown
+t:com/badlogic/gdx/graphics/g3d/shaders/depth.fragment.glsl:870:application/unknown
+t:com/badlogic/gdx/graphics/g3d/shaders/depth.vertex.glsl:2923:application/unknown
+t:com/badlogic/gdx/utils/arial-15.fnt:21743:application/unknown
+i:com/badlogic/gdx/utils/arial-15.png:21814:image/png
