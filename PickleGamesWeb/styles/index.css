@@ -1,0 +1,94 @@
+body {
+    background-color: #131413;
+    color: #FBFFFC;
+    margin: 0px;
+}
+
+#main_container {
+    width: 70vw;
+    height: auto;
+    margin-top: 0px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#name {
+    margin: 1em 0em 2em 0em;
+	font-family: "Lucida Console", serif;
+    color: #FBFFFC;
+}
+
+#name h1 {
+    font-size: 40pt;
+    margin: 0px;
+}
+
+#name h2 {
+    font-size: 15pt;
+    margin: 0px;
+}
+
+#navigation {
+    text-align: center;
+    border-bottom: .1em solid #FBFFFC;
+
+}
+
+#navigation ul {
+    display: flex;
+	/*justify-content: center;*/
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#navigation ul li {
+	flex: 1;
+	/*align-items: center;*/
+    font-size: 20pt;
+    font-family: "Lucida Console", serif;
+}
+
+#navigation ul .currenttab {
+	color:#2A7F40;	
+	align-self: center;
+}
+
+#navigation ul .currenttab img {
+	width: 10%;
+	height: auto;
+}
+
+#navigation ul li a {
+    color:#FBFFFC;
+    text-decoration: none;
+}
+
+#navigation ul li a:hover {
+    color:#2A7F40;
+}
+
+#navigation .currenttab a {
+	color:#2A7F40;	
+}
+
+#content {
+    min-height: 55vh;
+	margin-top: 2em;
+}
+
+#content p {
+    color: white;
+}
+
+#pickleimg {
+    margin: 0px auto;
+}
+
+#pickleimg img {
+    width: 50%;
+    height: auto;
+}
+
+p {
+    color: #222423;
+}

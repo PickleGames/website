@@ -1,0 +1,44 @@
+#content {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+    align-content: flex-start;
+    
+}
+
+#content .projectcontent {
+    display: flex;
+    margin: 0em 2em 2em 2em;
+    flex-direction: column;
+}
+
+#content .projectcontent .top img{
+    width: 16em;
+    height: 9em;
+}
+
+
+#content .projectcontent .bottom{
+    text-align: center;
+}
+
+#content .projectcontent .imgstyle {
+    padding: 0px;
+}
+
+#content .projectcontent .imgstyle > img {
+	max-width: 100%;
+	border-radius: 20px;
+}
+
+#content .projectcontent h3 {
+	font-family: "Lucida Console", serif;
+    color: #FBFFFC;
+	font-size: 13pt;
+	margin: 0.5em 0em 0em 0em;
+}
+
+#content .projectcontent p {
+    margin: 0px;
+}
