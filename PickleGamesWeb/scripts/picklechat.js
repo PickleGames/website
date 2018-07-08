@@ -1,7 +1,11 @@
 (function(){
   //make connection
   var $ = (id)=>{ return document.getElementById(id); };
-  var socket = io.connect(window.location.hostname);
+  var ip = window.location.hostname;
+  if(ip === "localhost") {
+      ip = "localhost:8080";
+  }
+  var socket = io.connect(ip);
   //window.location.hostname+":8080"
   console.log(window.location.hostname);
   window.onload = function(){
