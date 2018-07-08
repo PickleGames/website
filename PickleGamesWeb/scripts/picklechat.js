@@ -1,8 +1,7 @@
 (function(){
   //make connection
   var $ = (id)=>{ return document.getElementById(id); };
-  var socket = new io.Socket();
-  socket.connect("http://localhost:8080" || "http://realpicklegames.com" || "http://"+ipAddress+":"+port);
+  var socket = io.connect("http://localhost:8080" || "http://realpicklegames.com" || "http://"+ipAddress+":"+port);
   window.onload = function(){
       var message = $("message"),
           handle = $("handle"),
