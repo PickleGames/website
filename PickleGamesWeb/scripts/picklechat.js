@@ -1,7 +1,7 @@
 (function(){
   //make connection
   var $ = (id)=>{ return document.getElementById(id); };
-  var socket = io.connect("http://"+ipAddress+":"+port);
+  var socket = io.connect("http://realpicklegames.com");
   window.onload = function(){
       var message = $("message"),
           handle = $("handle"),
