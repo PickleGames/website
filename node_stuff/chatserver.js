@@ -1,7 +1,7 @@
-var socket = require("socket.io");
-var picklechat = function(server){
+
+var pickleChat = function(io,server){
     // socket setup
-    var io = socket(server);
+
     console.log("chat server start");
     io.on("connection", (socket)=>{
       console.log("socket connection " + socket.id);
@@ -18,4 +18,4 @@ var picklechat = function(server){
     });
 };
 
-module.exports = picklechat;
+module.exports = pickleChat;
