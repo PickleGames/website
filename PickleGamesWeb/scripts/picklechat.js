@@ -5,6 +5,11 @@
   if(ip === "localhost") {
       ip = "localhost:8080";
   }
+  // if(ip === "localhost") {
+  //     ip = "localhost:8080/picklechat.html";
+  // } else {
+  //     ip = ip + "/picklechat.html";
+  // }
   var socket = io.connect(ip);
   //window.location.hostname+":8080"
   console.log(window.location.hostname);
@@ -16,10 +21,12 @@
           feedback = $("feedback");
           //emit event
           btn.addEventListener("click", ()=>{
-            socket.emit("chat",{
+            var data = {
               message: message.value,
               handle: handle.value,
-            });
+            };
+            //console.log("sending data " + data);
+            socket.emit("chat", data);
             message.value = "";
           });
 
