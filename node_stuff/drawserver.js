@@ -8,7 +8,8 @@ var pickleDraw = function(io, server){
         console.log("draw server, socket connection " + socket.id);
         //handle draw event
         socket.on("draw", (data)=>{
-            console.log("data received: " + data);
+            console.log("draw: data received: ");
+            console.log(data);
             socket.broadcast.emit("draw", data);
         });
 

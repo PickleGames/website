@@ -1,4 +1,5 @@
 // Client draw code
+// Used p5js
 var canvas;
 
 var $ = (id)=>{ return document.getElementById(id); };
@@ -43,6 +44,32 @@ function mouseDragged(){
     sendDraw();
 }
 
+function keyPressed(){
+    console.log(keyCode);
+    if(keyCode === 69) {
+        //e
+        colorValue = 0;
+    } else if(keyCode === 68) {
+        //d
+        colorValue = 255;
+    } else if(keyCode === 219){
+        // {
+        if(isValidPointerSize(pointerSize-1)){
+            pointerSize--;
+        }
+    } else if(keyCode === 221) {
+        // }
+        if(isValidPointerSize(pointerSize+1)){
+            pointerSize++;
+        }
+    }
+    console.log(colorValue);
+}
+
+function isValidPointerSize(size){
+    return size >= 1 && size <= 20;
+}
+
 function drawLine(weight, color, x1, y1, x2, y2){
     strokeWeight(pointerSize);
     stroke(color);
@@ -50,7 +77,6 @@ function drawLine(weight, color, x1, y1, x2, y2){
 }
 
 // Send data
-
 function sendDraw(){
     var data = {
         "weight" : pointerSize,
@@ -61,14 +87,14 @@ function sendDraw(){
         "y2" : pmouseY,
     };
     socket.emit("draw", data);
-    console.log("data sent: ");
-    console.log(data);
+    //console.log("data sent: ");
+    //console.log(data);
 }
 
 // handle data
 socket.on("draw", (data)=>{
-    console.log("client data received: ");
-    console.log(data);
+    //console.log("client data received: ");
+    //console.log(data);
     drawLine(data.weight, data.color,
              data.x1, data.y1,data.x2,data.y2);
 });
