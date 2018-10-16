@@ -2,7 +2,7 @@
 var pickleChat = function(io,server){
     // socket setup
     console.log("chat server start");
-    io.sockets.on("connection", (socket)=>{
+    io.on("connection", (socket)=>{
       console.log("chat server, socket connection " + socket.id);
 
       //handle chat event
