@@ -4,7 +4,12 @@
 	flex-wrap: wrap;
 	justify-content: center;
     align-content: flex-start;
-    
+
+}
+
+#content #project_separate {
+    width: 100%;
+    margin: 1em 0 1em 0;
 }
 
 #content .projectcontent {

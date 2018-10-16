@@ -4,7 +4,7 @@ var pickleDraw = function(io, server){
     // socket setup
     // io_m = null;
     console.log("draw server start");
-    io.sockets.on("connection", (socket)=>{
+    io.on("connection", (socket)=>{
         console.log("draw server, socket connection " + socket.id);
         //handle draw event
         socket.on("draw", (data)=>{
